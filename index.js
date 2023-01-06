@@ -33,3 +33,10 @@ function addThree() {
   guestPoints += 3
   guestScore.textContent = guestPoints
 }
+
+function reset() {
+  homeScore.textContent = 0
+  homePoints = 0
+  guestScore.textContent = 0
+  guestPoints = 0
+}
