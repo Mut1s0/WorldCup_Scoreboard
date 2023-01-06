@@ -35,6 +35,22 @@ h1, p {
   text-align: center;
 }
 
+#home-score {
+  background-color: #171C2D;
+  padding-top: 20px;
+  color: white;
+  height: 10vh;
+  border-radius: 5px;
+}
+
+#guest-score {
+  background-color: #171C2D;
+  padding-top: 20px;
+  color: white;
+  height: 10vh;
+  border-radius: 5px;
+}
+
 .addedtime {
   display: flex;
 }
@@ -75,5 +91,19 @@ button {
     border:  3px solid #42354C;
     width: 10vh;
     margin: 0 auto;
+  }
+
+  #home-score {
+    width: 40vh;
+    height: 80px;
+    padding-top: 20px;
+    margin: 50px auto;
+  }
+
+  #guest-score {
+    width: 40vh;
+    height: 80px;
+    padding-top: 20px;
+    margin: 50px auto;
   }
 }
